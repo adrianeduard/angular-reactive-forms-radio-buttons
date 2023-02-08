@@ -1,0 +1,21 @@
+<form [formGroup]="formGroup">
+  <div>
+    <label for="input1">Option 1</label>
+    <input
+      id="input1"
+      type="radio"
+      formControlName="inputOption"
+      value="option1"
+    />
+  </div>
+  <div>
+    <label for="input2">Option 2</label>
+    <input
+      id="input2"
+      type="radio"
+      formControlName="inputOption"
+      value="option2"
+    />
+  </div>
+  <button type="button" (click)="submitHandler()">Submit</button>
+</form>
