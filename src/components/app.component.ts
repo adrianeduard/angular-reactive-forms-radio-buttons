@@ -3,9 +3,6 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 
 @Component({
   selector: 'my-app',
-  //standalone: true,
-  //imports: [CommonModule, ReactiveFormsModule],
-  providers: [],
   templateUrl: 'app.component.html',
 })
 export class AppComponent implements OnInit {
