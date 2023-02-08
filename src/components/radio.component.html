@@ -1,9 +1,10 @@
-<div>
-  <label for="input1">Option 1</label>
+<div [formGroup]="parentGroup">
+  <label [for]="id">{{ text }}</label>
   <input
-    id="input1"
+    [id]="id"
     type="radio"
+    name="inputOption"
     formControlName="inputOption"
-    value="option1"
+    [value]="value"
   />
 </div>
